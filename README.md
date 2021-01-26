@@ -6,7 +6,7 @@
 ## 在本機執行
 
 (1)請使用train_model_cnn.py
-注意：訓練過程會使用大量運算資源，請務必根據GPU設定(依GPU型號安裝特定驅動程式)
+注意：訓練過程會使用大量運算資源，請務必先進行GPU設定(GPU需依型號安裝驅動程式)
 
 ## 在雲端上執行
 Google提供的colab，除了支援iPython的格式(就是jupyter所使用的那種)，還有免費提供一定程度的GPU。如果需求增加可再升級成付費版本。
@@ -25,4 +25,6 @@ Google提供的colab，除了支援iPython的格式(就是jupyter所使用的那
 
 ![ ](/md_image/open3.PNG "大功告成")
 
+
+#Colab操作簡介
 
