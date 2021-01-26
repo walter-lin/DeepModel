@@ -39,8 +39,16 @@ Google提供的colab，除了支援iPython的格式(就是jupyter所使用的那
 ![ ](/md_image/gpu1.PNG "")
 ![ ](/md_image/gpu2.PNG "")
 
----
-
-## 啟動Colab
+## 啟動執行階段
 ![ ](/md_image/begin1.PNG "")
+
 ![ ](/md_image/begin2.PNG "")
+
+## 終止執行階段
+![ ](/md_image/end1.PNG "")
+![ ](/md_image/end2.PNG "")
+
+## 專案目錄
+![ ](/md_image/dir1.PNG "")
+![ ](/md_image/dir2.PNG "上傳壓縮檔")
+![ ](/md_image/dir3.PNG "解壓縮後")
