@@ -9,9 +9,9 @@
 注意：訓練過程會使用大量運算資源，請務必先進行GPU設定(GPU需依型號安裝驅動程式)
 
 ## 在雲端上執行
-Google提供的colab，除了支援iPython的格式(就是jupyter所使用的那種)，還有免費提供一定程度的GPU。如果需求增加可再升級成付費版本。
+Google提供的colab，除了支援iPython的格式(就是jupyter所使用的那種)，還有免費提供GPU，適合負擔訓練過程的龐大運算。
 
-1. 請資料整個打包至Google雲端硬碟 
+1. 請將資料整個打包至Google雲端硬碟 
 
 2. 利用colab開啟train_model_cnn.ipynb(注意附檔名)
 ---
@@ -26,5 +26,21 @@ Google提供的colab，除了支援iPython的格式(就是jupyter所使用的那
 ![ ](/md_image/open3.PNG "大功告成")
 
 
-#Colab操作簡介
+## 目錄說明
 
+- trainImg為訓練素材，testImg為測試資料夾 
+- 當中0為正確答案，1為錯誤答案
+- 如欲額外進行"資料正規化"調整，可修改**dataset.py**
+目前已有將受測資料大小縮小為固定數值
+
+# Colab操作說明
+
+## 啟動GPU
+![ ](/md_image/gpu1.PNG "")
+![ ](/md_image/gpu2.PNG "")
+
+---
+
+## 啟動Colab
+![ ](/md_image/begin1.PNG "")
+![ ](/md_image/begin2.PNG "")
