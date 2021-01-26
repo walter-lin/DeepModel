@@ -50,5 +50,7 @@ Google提供的colab，除了支援iPython的格式(就是jupyter所使用的那
 
 ## 專案目錄
 ![ ](/md_image/dir1.PNG "")
+
 ![ ](/md_image/dir2.PNG "上傳壓縮檔")
+
 ![ ](/md_image/dir3.PNG "解壓縮後")
