@@ -30,8 +30,7 @@ Google提供的colab，除了支援iPython的格式(就是jupyter所使用的那
 
 - trainImg為訓練素材，testImg為測試資料夾 
 - 當中0為正確答案，1為錯誤答案
-- 如欲額外進行"資料正規化"調整，可修改**dataset.py**
-目前已有將受測資料大小縮小為固定數值
+- **dataset.py**已有將資料縮放為固定大小，如欲調整大小請使用此檔案
 
 # Colab操作說明
 
